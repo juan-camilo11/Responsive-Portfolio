@@ -1,62 +1,58 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-
-    <!--access a vast array of characters -->
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="content">
-        <header>
-            <h1>Juan Camilo Varon</h1>
-            <nav>
-                <a class="leftLink" href="./index.html" Title="About" target="_blank">About</a>
-                <a class="centerLink" href="./contact.html" Title="Contact Information" target="_blank">Contact</a>
-                <a class="rightLink" href="./portfolio.html" Title="Portfolio Information" target="_blank">Portfolio</a>
 
-            </nav>
-        </header>
-
-
-
-        <div class="Wrapper">
-
-            
-            <form action="">
-
-                <h2>Contact</h2>
-                <p class="contactHeaders">Name:</p>    
-                <input type="text" value="" id="userName"><br>
-                <p class="contactHeaders">Email:</p> 
-                <input type="email" value="" id="userEmail"><br>
-                <p class="contactHeaders">Message:</p> 
-                <input type="text" value="" id="message"><br>
-                <input id="submitButton" type="submit" value="Submit"> <br>
-
-
-
-                
-
-
-
-            </form>
-
-        </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Juan Varon</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <footer>
-        <h5>
-            Copyright @
-        </h5>
+  </header>
 
-    </footer>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>

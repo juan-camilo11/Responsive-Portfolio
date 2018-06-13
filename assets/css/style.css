@@ -216,6 +216,164 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 981px) {
+
+  @media screen and (min-width: 978px) {
+
+    #masthead {
+      position: static;
+    }
+
+    nav {
+
+      padding-right: 5%;
+    }
+
+    #logo {
+      margin-left: 5%;
+    }
+
+    #main-container {
+      padding-top: 30px;
+      min-height: calc(100vh - 70px);
+    }
+
+    .main-section {
+
+      overflow: auto;
+      float: none;
+      margin-left: 5%;
+      width: 60%;
+
+  
+    }
+
+    p {
+
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .work {
+      position: relative;
+      float: left;
+      width: 45%;
+      margin: 10px 0px 15px;
+      overflow: auto;
+    }
+    
+    .work:nth-child(even) {
+      margin-right: 20px;
+    }
+  
+    .work:nth-child(odd) {
+      float: right;
+    }
+    
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.8;
+    }
+  
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 0;
+      font-weight: 500;
+      line-height: 10px;
+      color: #fff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+  
+  }
+  
+}
+
+@media screen and (max-width: 769px) {
+
+  @media screen and (min-width: 765px) {
+
+
+  #masthead {
+    position: static;
+  }
+
+
+
+  nav {
+
+    padding-right: 5%; 
+   
+
+  }
+
+  #logo {
+    margin-left: 5%;
+
+  }
+
+  #main-container {
+    padding-top: 30px;
+    min-height: calc(100vh - 70px);
+  }
+  .main-section {
+
+    overflow: auto;
+    float: none;
+    margin: 0 auto 5% auto;
+    width: 80%;
+
+  }
+
+  p {
+
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin: 10px 0px 15px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 20px;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  }
+  
+}
 
 @media screen and (max-width: 641px) {
 
@@ -262,6 +420,12 @@ input[type=submit] {
 
   }
 
+  p {
+
+    font-size: 14px;
+    line-height: 24px;
+  }
+
   .auth-image {
     float: none;
     width: 100%;
@@ -278,8 +442,8 @@ input[type=submit] {
   input[type=text],
   input[type=email],
   textarea {
-    height: 20px;
-    padding: 0 10px;
+    height: 15px;
+    padding: 0 8px;
     font-size: 14px;
     border: 1px solid #ddd;
   }
@@ -303,3 +467,4 @@ input[type=submit] {
   }
 
 }
+
